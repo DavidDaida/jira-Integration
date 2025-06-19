@@ -1,0 +1,29 @@
+- identifier: some_identifier
+  title: Some Title
+  team: []
+  icon: DefaultBlueprint
+  blueprint: jiraIssue
+  properties:
+    url: https://example.com
+    status: string
+    issueType: string
+    components: []
+    creator: string
+    priority: string
+    labels: []
+    created: '2025-06-19T06:04:17.580Z'
+    updated: '2025-06-19T06:04:17.580Z'
+    resolutionDate: '2025-06-19T06:04:17.580Z'
+  relations:
+    reporter: related_entity_identifier
+    pull_request: related_entity_identifier
+    jira_user_reporter: related_entity_identifier
+    assignee: related_entity_identifier
+    subtasks:
+      - related_entity_identifier
+      - another_related_entity_identifier
+    parentIssue: related_entity_identifier
+    related_repository: related_entity_identifier
+    service: related_entity_identifier
+    jira_user_assignee: related_entity_identifier
+    project: related_entity_identifier
